@@ -1,0 +1,111 @@
+mpirun project1
+ ================================================ 
+ ==========	  Problemsize : 10  	========= 
+ ================================================ 
+Benchmark
+-> 0.000 seconds for benchmark
+
+Benchmark with openMP
+Starting matrix multiplication with 64 threads
+-> 0.001 seconds for benchmark
+
+Benchmark with pThreads
+-> 0.000 seconds for benchmark
+
+Benchmark with MPI 
+-> 0.000 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 50  	========= 
+ ================================================ 
+Benchmark
+-> 0.002 seconds for benchmark
+
+Benchmark with openMP
+Starting matrix multiplication with 64 threads
+-> 0.001 seconds for benchmark
+
+Benchmark with pThreads
+-> 0.001 seconds for benchmark
+
+Benchmark with MPI 
+-> 0.002 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 100  	========= 
+ ================================================ 
+Benchmark
+-> 0.019 seconds for benchmark
+
+Benchmark with openMP
+Starting matrix multiplication with 64 threads
+-> 0.006 seconds for benchmark
+
+Benchmark with pThreads
+-> 0.006 seconds for benchmark
+
+Benchmark with MPI 
+-> 0.019 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 500  	========= 
+ ================================================ 
+Benchmark
+-> 2.733 seconds for benchmark
+
+Benchmark with openMP
+Starting matrix multiplication with 64 threads
+-> 0.825 seconds for benchmark
+
+Benchmark with pThreads
+-> 0.809 seconds for benchmark
+
+Benchmark with MPI 
+-> 2.743 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 750  	========= 
+ ================================================ 
+Benchmark
+-> 10.405 seconds for benchmark
+
+Benchmark with openMP
+Starting matrix multiplication with 64 threads
+-> 2.590 seconds for benchmark
+
+Benchmark with pThreads
+-> 2.551 seconds for benchmark
+
+Benchmark with MPI 
+-> 9.944 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 1000  	========= 
+ ================================================ 
+Benchmark with openMP
+Starting matrix multiplication with 64 threads
+-> 7.195 seconds for benchmark
+
+Benchmark with pThreads
+-> 6.660 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 2000  	========= 
+ ================================================ 
+Benchmark with openMP
+Starting matrix multiplication with 64 threads
+-> 75.419 seconds for benchmark
+
+Benchmark with pThreads
+-> 63.732 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 5000  	========= 
+ ================================================ 
+Benchmark with openMP
+Starting matrix multiplication with 64 threads
+-> 1483.654 seconds for benchmark
+
+Benchmark with pThreads
+-> 1467.919 seconds for benchmark
+

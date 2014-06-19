@@ -1,0 +1,111 @@
+mpirun project1
+
+HERE ARE ONLY SOME BETTER RESULTS ON OPEN_MP!
+
+RUNNING MATRIX MULTIPLICATION TESTCASE: 
+Testing A (3x2) * B (2x3) = C (2x2) :sequential program ... ok 
+Testing B (2x3) * A (3x2) = C (3x3) :sequential program ... ok 
+Testing E (3x3) * E (3x3) = C (3x3) :sequential program ... ok 
+Testing E (3x3) * E (3x3) = C 3x3) : sequential program ... ok 
+
+RUNNING MATRIX MULTIPLICATION TESTCASE: 
+Testing A (3x2) * B (2x3) = C (2x2) : with openMP ... ok 
+Testing B (2x3) * A (3x2) = C (3x3) : with openMP ... ok 
+Testing E (3x3) * E (3x3) = C (3x3) : with openMP ... ok 
+Testing E (3x3) * E (3x3) = C 3x3) : with openMP ... ok 
+
+RUNNING MATRIX MULTIPLICATION TESTCASE: 
+Testing A (3x2) * B (2x3) = C (2x2) : with pThreads ... ok 
+Testing B (2x3) * A (3x2) = C (3x3) : with pThreads ... ok 
+Testing E (3x3) * E (3x3) = C (3x3) : with pThreads ... ok 
+Testing E (3x3) * E (3x3) = C 3x3) : with pThreads ... ok 
+
+RUNNING MATRIX MULTIPLICATION TESTCASE: 
+Testing A (3x2) * B (2x3) = C (2x2) : with MPI ... ok 
+Testing B (2x3) * A (3x2) = C (3x3) : with MPI ... ok 
+Testing E (3x3) * E (3x3) = C (3x3) : with MPI ... ok 
+Testing E (3x3) * E (3x3) = C 3x3) : with MPI ... ok 
+ ================================================ 
+ ==========	  Problemsize : 10  	========= 
+ ================================================ 
+Benchmarking sequential program
+-> 0.000 seconds for benchmark
+
+Benchmarking openMP
+-> 0.003 seconds for benchmark
+
+Benchmarking pThreads
+-> 0.000 seconds for benchmark
+
+Benchmarking MPI 
+-> 0.000 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 50  	========= 
+ ================================================ 
+Benchmarking sequential program
+-> 0.002 seconds for benchmark
+
+Benchmarking openMP
+-> 0.001 seconds for benchmark
+
+Benchmarking pThreads
+-> 0.002 seconds for benchmark
+
+Benchmarking MPI 
+-> 0.002 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 100  	========= 
+ ================================================ 
+Benchmarking sequential program
+-> 0.019 seconds for benchmark
+
+Benchmarking openMP
+-> 0.012 seconds for benchmark
+
+Benchmarking pThreads
+-> 0.007 seconds for benchmark
+
+Benchmarking MPI 
+-> 0.019 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 500  	========= 
+ ================================================ 
+Benchmarking sequential program
+-> 2.675 seconds for benchmark
+
+Benchmarking openMP
+-> 0.700 seconds for benchmark
+
+Benchmarking pThreads
+-> 0.714 seconds for benchmark
+
+Benchmarking MPI 
+-> 2.692 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 750  	========= 
+ ================================================ 
+Benchmarking sequential program
+-> 9.644 seconds for benchmark
+
+Benchmarking openMP
+-> 2.455 seconds for benchmark
+
+Benchmarking pThreads
+-> 2.427 seconds for benchmark
+
+Benchmarking MPI 
+-> 9.582 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 2000  	========= 
+ ================================================ 
+Benchmarking openMP
+-> 75.060 seconds for benchmark
+
+Benchmarking pThreads
+-> 65.551 seconds for benchmark
+

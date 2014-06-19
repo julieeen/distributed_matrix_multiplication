@@ -1,0 +1,98 @@
+[jf190@atlas project1]$ make run
+gcc -fopenmp -pthread  *.c -o project1
+./project1
+RUNNING MATRIX MULTIPLICATION TESTCASE: 
+Testing A (3x2) * B (2x3) = C (2x2) :sequential program ... ok 
+Testing B (2x3) * A (3x2) = C (3x3) :sequential program ... ok 
+Testing E (2x3) * E (3x2) = C (3x3) :sequential program ... ok 
+Testing E (100x100) * E (100x100) = C 100x100) :sequential program ... ok 
+RUNNING MATRIX MULTIPLICATION TESTCASE: 
+Testing A (3x2) * B (2x3) = C (2x2) : with openMP ... ok 
+Testing B (2x3) * A (3x2) = C (3x3) : with openMP ... ok 
+Testing E (2x3) * E (3x2) = C (3x3) : with openMP ... ok 
+Testing E (100x100) * E (100x100) = C 100x100) : with openMP ... ok 
+RUNNING MATRIX MULTIPLICATION TESTCASE: 
+Testing A (3x2) * B (2x3) = C (2x2) : with pThreads ... ok 
+Testing B (2x3) * A (3x2) = C (3x3) : with pThreads ... ok 
+Testing E (2x3) * E (3x2) = C (3x3) : with pThreads ... ok 
+Testing E (100x100) * E (100x100) = C 100x100) : with pThreads ... ok 
+ ================================================ 
+ ==========	  Problemsize : 10  	========= 
+ ================================================ 
+Benchmarking sequential program
+-> 0.000 seconds for benchmark
+
+Benchmarking openMP
+-> 0.000 seconds for benchmark
+
+Benchmarking pThreads
+-> 0.000 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 50  	========= 
+ ================================================ 
+Benchmarking sequential program
+-> 0.007 seconds for benchmark
+
+Benchmarking openMP
+-> 0.002 seconds for benchmark
+
+Benchmarking pThreads
+-> 0.007 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 100  	========= 
+ ================================================ 
+Benchmarking sequential program
+-> 0.053 seconds for benchmark
+
+Benchmarking openMP
+-> 0.011 seconds for benchmark
+
+Benchmarking pThreads
+-> 0.025 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 500  	========= 
+ ================================================ 
+Benchmarking sequential program
+-> 7.412 seconds for benchmark
+
+Benchmarking openMP
+-> 1.326 seconds for benchmark
+
+Benchmarking pThreads
+-> 1.056 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 750  	========= 
+ ================================================ 
+Benchmarking sequential program
+-> 25.664 seconds for benchmark
+
+Benchmarking openMP
+-> 4.490 seconds for benchmark
+
+Benchmarking pThreads
+-> 3.472 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 1000  	========= 
+ ================================================ 
+Benchmarking openMP
+-> 11.453 seconds for benchmark
+
+Benchmarking pThreads
+-> 8.748 seconds for benchmark
+
+ ================================================ 
+ ==========	  Problemsize : 2000  	========= 
+ ================================================ 
+Benchmarking openMP
+-> 89.530 seconds for benchmark
+
+Benchmarking pThreads
+-> 73.721 seconds for benchmark
+
+[jf190@atlas project1]$ 
+
